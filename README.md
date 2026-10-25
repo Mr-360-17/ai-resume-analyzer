@@ -1,5 +1,7 @@
 # AI Resume Analyzer & Job Recommendation System
 
+**Live app:** https://nand-resume-analyzer.streamlit.app/
+
 An NLP-based Streamlit app that shows students how well their resume matches common tech roles.
 Upload a PDF or DOCX resume and the app:
 
@@ -133,6 +135,8 @@ Full details are in `tests/test_cases.csv`.
 - **Weights are set by hand.** The 70/30 weights were not learned, because no labelled resume-to-role dataset was available.
 
 ## Deployment (Streamlit Community Cloud)
+
+Deployed at https://nand-resume-analyzer.streamlit.app/. To deploy your own copy:
 
 1. Push this folder to a public GitHub repository.
 2. Go to share.streamlit.io, choose **New app**, select the repo and set the main file to `app.py`.
