@@ -1,0 +1,6 @@
+test_resume,expected_top_role,actual_top_role,match_score,second_role,skills_found,result,comments
+resume_A_data_analyst.pdf,Data Analyst,Data Analyst,78.3,Data Scientist,12,Pass,Extra: -; missed: -
+resume_B_ml_engineer.docx,Machine Learning Engineer,Machine Learning Engineer,69.5,Data Scientist,20,Pass,Extra: -; missed: -
+resume_C_nlp_engineer.pdf,NLP Engineer,NLP Engineer,80.3,Machine Learning Engineer,14,Pass,Extra: Classification; missed: -
+resume_D_cv_engineer.docx,Computer Vision Engineer,Computer Vision Engineer,80.8,NLP Engineer,12,Pass,Extra: Classification; missed: -
+resume_E_web_developer.pdf,Web Developer,Web Developer,77.3,Python Developer,9,Pass,Extra: -; missed: -
