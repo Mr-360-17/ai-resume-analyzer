@@ -1,6 +1,8 @@
 # AI Resume Analyzer & Job Recommendation System
 
-**Live app:** https://nand-resume-analyzer.streamlit.app/
+**Live app:** https://nand-resume-analyzer.streamlit.app/ &nbsp;|&nbsp;
+**Report:** [docs/Project_Report.pdf](docs/Project_Report.pdf) &nbsp;|&nbsp;
+**Demo video:** [docs/demo.mp4](docs/demo.mp4)
 
 An NLP-based Streamlit app that shows students how well their resume matches common tech roles.
 Upload a PDF or DOCX resume and the app:
@@ -74,7 +76,11 @@ ai_resume_analyzer/
 |   |-- skill_dictionary.csv  76 skills: category, aliases, learning topic
 |   |-- sample_resumes/     5 anonymised resumes (3 PDF, 2 DOCX)
 |-- reports/                reports saved only if the user ticks the box
-|-- docs/architecture.png   workflow diagram
+|-- docs/
+|   |-- architecture.png    workflow diagram
+|   |-- Project_Report.pdf  short project report
+|   |-- demo.mp4            2-minute demonstration video
+|   |-- screenshots/        app screenshots
 |-- tests/
     |-- run_tests.py        evaluation script
     |-- test_cases.csv      expected vs actual top role
